@@ -17,8 +17,10 @@ Java klassen Fetcher.java kan också köras för att få fram resultatet som lok
 koden är:
 @Path("/stationer")
 public class BusStationRS {
+
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
+	
 	public String getTable() throws Exception {
 		Fetcher fetcher = new Fetcher();
 		return fetcher.getTopTenStation();
