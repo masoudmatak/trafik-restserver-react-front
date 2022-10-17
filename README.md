@@ -61,4 +61,6 @@ function Fetcher(){
   )
 }
 
-export default Fetcher
+----------
+<img src="korningResult.jpg" alt="Girl in a jacket" width="500" height="600">
+ korningResult.jpg
