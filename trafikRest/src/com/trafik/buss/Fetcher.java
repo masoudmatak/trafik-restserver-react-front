@@ -19,7 +19,7 @@ public class Fetcher {
 	private static final String DIRECTION_CODE = "1";
 	private Answer answerResult = new Answer();
 	private static boolean verbose = false;
-	private static final String URL = "https://api.sl.se/api2/lineData.json?key=4a012a33b28548ae9e194ff041bd6788&DefaultTransportModeCode=BUS";
+	private static final String URL = "https://api.sl.se/api2/lineData.json?key=xxxxxxxxxxxxxxxxx&DefaultTransportModeCode=BUS";
 
 	public static void main(String[] args) throws Exception {
 		Fetcher fetcher = new Fetcher();
