@@ -9,6 +9,7 @@ server byggs med:
    "mvn install"
 och klineten med 
   "npm install". 
+  
 Man kör sedan klienten med "npm start"
 
 back end anropas ==>  http://localhost:8080/TrafikREST/rest/stationer
