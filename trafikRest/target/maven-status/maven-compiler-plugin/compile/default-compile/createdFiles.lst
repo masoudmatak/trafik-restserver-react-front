@@ -1,0 +1,8 @@
+com\trafik\buss\Result.class
+com\trafik\buss\BusStationRS.class
+com\trafik\buss\Answer.class
+com\trafik\buss\Fetcher.class
+com\trafik\buss\ResponseData.class
+com\trafik\buss\TrafikRS.class
+com\trafik\buss\BusPresentation.class
+com\trafik\buss\DataTable.class
