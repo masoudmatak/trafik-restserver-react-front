@@ -4,6 +4,12 @@ för att kunna visa top-10 busslinjer
 -backend delen är Rest-API-server som körs i Tomcat-9 och Java som programspråk
 -fronten i ReactJS med Redux som hjälplibrary
 
+server byggs med:
+   "mvn install"
+och klineten med 
+  "npm install". 
+Man kör sedan klienten med "npm start"
+
 back end anropas ==>  http://localhost:8080/TrafikREST/rest/stationer
 
 koden är:
