@@ -12,7 +12,7 @@ Man kör sedan klienten med "npm start"
 
 back end anropas ==>  http://localhost:8080/TrafikREST/rest/stationer
 
-Java klassen Fetcher.java kan också köras för att få fram resultatet.
+Java klassen Fetcher.java kan också köras för att få fram resultatet som lokal applikation.
 
 koden är:
 @Path("/stationer")
