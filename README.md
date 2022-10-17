@@ -2,6 +2,7 @@
 för att kunna visa top-10 busslinjer 
 
 -backend delen är Rest-API-server som körs i Tomcat-9 och Java som programspråk
+
 -fronten i ReactJS med Redux som hjälplibrary
 
 server byggs med:
