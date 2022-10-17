@@ -12,6 +12,8 @@ Man kör sedan klienten med "npm start"
 
 back end anropas ==>  http://localhost:8080/TrafikREST/rest/stationer
 
+Java klassen Fetcher.java kan också köras för att få fram resultatet.
+
 koden är:
 @Path("/stationer")
 public class BusStationRS {
@@ -22,7 +24,7 @@ public class BusStationRS {
 		return fetcher.getTopTenStation();
 	}
 }
-Java klassen Fetcher.java kan också köras för att få fram resultatet.
+
 
 
 front==>  http://localhost:3000
