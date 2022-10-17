@@ -38,12 +38,12 @@ front==>  http://localhost:3000
  (JavaScripten är mycket liten och enkelt..)
 
 
-import React, { useEffect, useState } from "react";
-import axios from 'axios'
-
 function Fetcher(){
+
    const [posts, setPosts] = useState([])
+   
   useEffect(() => {
+  
      axios.get('http://localhost:8080/TrafikREST/rest/stationer')
      .then(res => {
      console.log(res)
